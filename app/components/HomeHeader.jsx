@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import { FaGoogle } from "react-icons/fa";
 function HomeHeader() {
   return (
       <header className='flex justify-end p-5 text-sm'>
@@ -12,6 +12,7 @@ function HomeHeader() {
             className='hover:underline'>
                 Image
             </Link>
+            < FaGoogle className='text-gray hover:brightness-105 hover:shadow-md transition-shadow'/>
            <button className='bg-blue-500 text-white
            px-6 py-2 rounded-md font-medium
            hover:brightness-105 hover:shadow-md
