@@ -8,7 +8,7 @@ import SearchHeaderOptions from './SearchHeaderOptions';
 
 function SearchHeader() {
   return (
-    <header className='sticky top-0 bg-white'>
+    <header className='sticky top-0 bg-white z-10'>
       <div className="flex w-full  items-center">
         <Link href='/'>
           <Image
