@@ -18,10 +18,10 @@ export default async function Web({ searchParams }) {
           <h1 className='text-3xl mb-4'>
             No result found for "{searchParams.searchTerm}"
           </h1>
-          <p className='text-lg'>
-            Try searching the web or images for something else {" "} 
-            <Link href="/" className='text-blue-500'>
+          <p className='text-lg'>&quot;Try searching the web or images for something else {" "} 
+            <Link href="/" className='text-blue-500'>&quot;
              Home
+             &quot;
             </Link>
           </p>
         </div>
@@ -30,8 +30,8 @@ export default async function Web({ searchParams }) {
 
 
   return (
-    <div>
-      {results && <WebSearchResults results={data}/>}
+    <div>&quot;
+      {results && <WebSearchResults results={data}/>}&quot;
     </div>
   )
 }
